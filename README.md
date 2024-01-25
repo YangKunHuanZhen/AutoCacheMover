@@ -33,12 +33,11 @@
 |C:\Users\Downloads\test\src|/cache_root_folder|
 |C:\Users\Downloads\test\target|/move_target_folder|
 
-
-
-file_expired_minutes=1,3
-cache_root_folder=/cache_root_folder 
-cache_folders=/cache_root_folder/download1,/cache_root_folder/download2 
-move_target_folders=/move_target_folder/download1,/move_target_folder/download2
+变量设置
+- file_expired_minutes=1,3
+- cache_root_folder=/cache_root_folder 
+- cache_folders=/cache_root_folder/download1,/cache_root_folder/download2 
+- move_target_folders=/move_target_folder/download1,/move_target_folder/download2
 
 表示自动将c盘的\Users\Downloads\test\src 目录下的download1 文件夹下的文件如果修改时间超过1分钟，就自动移动到\Users\Downloads\test\target下的download1文件夹
 而对于download2 文件夹是修改时间超过3分钟就移动到download2
