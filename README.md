@@ -27,9 +27,13 @@
 
 
 举例
-Source (Host)	Destination (Container)
-C:\Users\Downloads\test\src	/cache_root_folder
-C:\Users\Downloads\test\target	/move_target_folder
+
+|Source (Host)|Destination (Container)|
+|-|-|
+|C:\Users\Downloads\test\src|/cache_root_folder|
+|C:\Users\Downloads\test\target|/move_target_folder|
+
+
 
 file_expired_minutes=1,3
 cache_root_folder=/cache_root_folder 
