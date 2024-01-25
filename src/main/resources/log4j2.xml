@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Configuration status="WARN" monitorInterval="600">
+    <Appenders>
+        <Console name="console_out_appender" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%t] %d{yyyy-MM-dd HH:mm:ss} [%-5p] : %m (%F:%L)%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <root level="info">
+            <appender-ref ref="console_out_appender"/>
+        </root>
+    </Loggers>
+</Configuration>
