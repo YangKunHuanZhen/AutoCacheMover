@@ -40,4 +40,5 @@
 - move_target_folders=/move_target_folder/download1,/move_target_folder/download2
 
 表示自动将c盘的\Users\Downloads\test\src 目录下的download1 文件夹下的文件如果修改时间超过1分钟，就自动移动到\Users\Downloads\test\target下的download1文件夹
+
 而对于download2 文件夹是修改时间超过3分钟就移动到download2
