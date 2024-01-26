@@ -16,6 +16,7 @@
 
 # 使用教程
 docker 镜像链接：https://hub.docker.com/repository/docker/huanzhen111/auto-cache-mover/general
+
       docker pull huanzhen111/auto-cache-mover:0.0.1
 
 - 必须挂载缓存根文件夹 /cache_root_folder ，然后可以在该跟文件夹下指定多个想要自动移动的文件夹
