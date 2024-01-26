@@ -7,6 +7,7 @@
 当前已实现功能
 - 文件未修改指定时间之后，自动移动到指定的文件夹
 - 支持多个文件夹一一对应移动
+- 多个文件夹的缓存时间都是可单独指定的
 
 
 未来可能功能点
@@ -46,3 +47,7 @@ docker 镜像链接：https://hub.docker.com/repository/docker/huanzhen111/auto-
 表示自动将c盘的\Users\Downloads\test\src 目录下的download1 文件夹下的文件如果修改时间超过1分钟，就自动移动到\Users\Downloads\test\target下的download1文件夹
 
 而对于download2 文件夹是修改时间超过3分钟就移动到download2
+
+# 关于后续维护
+如果有问题请在github提issue，对于bug会尽量修复
+对于未来功能的进展主要看使用的人多不多，因为当前这个基础版本已经够我自己日常使用，未来功能点对于我本人来说不是刚需，如果也没几个人用就没有了开发价值
